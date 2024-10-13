@@ -1,6 +1,7 @@
 # 平台环境
 - Qt Creator 10.0.1
 - Qt6 6.2.4
+- SQL Server Management Studio	20.1.10.0
 
 # 产生式系统实验
 ## 实验内容
@@ -13,6 +14,11 @@
 4. 推理机和知识库必须分离；
 5. （可选，非必需）在不修改推理机程序的前提下，能够向知识库添加、删除、修改规则。
 6. 设计合理的人机交互界面。
+
+# $user\ interface\ display$
+![主界面](images/outlineScreen.png)
+![事实添加界面](images/addNewFact.png)
+![规则添加界面](images/addNewRule.png)
 
 
 # Rule 规则类
