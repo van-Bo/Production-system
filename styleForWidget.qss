@@ -1,0 +1,63 @@
+QTableView {
+    background-color: #F5F5F5;
+    alternate-background-color: #E0E0E0;
+    gridline-color: #D3D3D3;
+    selection-background-color: #85BCC7;
+    selection-color: #000000;
+    border: 1px solid #A9A9A9;
+}
+QHeaderView::section {
+    background-color: #A9A9A9;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: 1px solid #D3D3D3;
+    padding: 4px;
+}
+QTableCornerButton::section {
+    background-color: #A9A9A9;
+    border: 1px solid #D3D3D3;
+}
+QScrollBar:vertical {
+    border: 1px solid #999999;
+    background: #F5F5F5;
+    width: 10px;
+    margin: 0px 0px 0px 0px;
+}
+QScrollBar::handle:vertical {
+    background: #A9A9A9;
+    min-height: 20px;
+}
+QScrollBar::add-line:vertical {
+    background: #A9A9A9;
+    height: 20px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+QScrollBar::sub-line:vertical {
+    background: #A9A9A9;
+    height: 20px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+QPushButton {
+    background-color: #F0F0F0; /* 浅灰色背景 */
+    border: 1px solid #A9A9A9; /* 深灰色边框 */
+    color: #000000; /* 黑色文字 */
+    padding: 7px 14px; /* 调整内边距，使按钮变小 */
+    text-align: center; /* 文字居中 */
+    text-decoration: none; /* 无下划线 */
+    font-size: 13px; /* 调整字体大小 */
+    margin: 4px 2px; /* 外边距 */
+    border-radius: 12px; /* 圆角 */
+    background-image: linear-gradient(to bottom, #D3D3D3, #A9A9A9); /* 渐变背景 */
+}
+
+QPushButton:hover {
+    background-color: #85BCC7; /* 悬停时背景变为浅蓝色 */
+    color: #000000; /* 悬停时文字保持黑色 */
+    border: 1px solid #000000; /* 悬停时边框变为黑色 */
+    background-image: linear-gradient(to bottom, #ADD8E6, #87CEEB); /* 渐变背景 */
+}
+
+
